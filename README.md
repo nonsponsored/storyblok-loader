@@ -7,6 +7,11 @@ A content loader for Astro Content Layer that fetches content from Storyblok's A
 - Astro 5.2.0 or higher (required for Content Layer API)
 - @storyblok/astro 6.0.0 or higher
 
+## Important Notes
+
+- Intended to be used for build process, not in development mode or using Storyblok's Live Preview.
+- Internationalization support has not been tested. Use with caution and please report any issues you encounter.
+
 ## Installation
 
 Using npm:
@@ -18,10 +23,6 @@ Using yarn:
 ```
 yarn add @nonsponsored/storyblok-loader
 ```
-
-## Important Notes
-
-- Internationalization support has not been tested. Use with caution and please report any issues you encounter.
 
 ## Usage
 
