@@ -18,7 +18,7 @@ interface StoryblokLoaderOptions {
   /** Whether to resolve relationships */
   resolve_relations?: string[];
   /** Whether to resolve links to other stories */
-  resolve_links?: "url" | "story" | "0" | "1" | "2";
+  resolve_links?: "url" | "story" | "0" | "1" | "link";
 }
 
 interface StoryblokStory {
