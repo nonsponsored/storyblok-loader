@@ -1,0 +1,41 @@
+{
+  "name": "@nonsponsored/storyblok-loader",
+  "version": "1.0.0",
+  "description": "Storyblok loader for Astro Content Collections API",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "storyblok-js-client": "^5.0.0"
+  },
+  "peerDependencies": {
+    "astro": "^5.0.0",
+    "@storyblok/astro": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "astro": "^5.2.0",
+    "@storyblok/astro": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nonsponsored/storyblok-loader.git"
+  },
+  "keywords": ["astro", "storyblok", "content-loader"],
+  "author": "nonsponsored",
+  "license": "MIT"
+}
