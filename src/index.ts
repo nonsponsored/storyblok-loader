@@ -107,6 +107,7 @@ export const storyblokLoader = ({
 
       return stories.map((story) => ({
         id: story.uuid,
+        uuid: story.uuid,
         slug: story.full_slug,
         content: story.content,
         name: story.name,
