@@ -4,10 +4,8 @@ A content loader for Astro Content Layer that fetches content from Storyblok's A
 
 ## Requirements
 
-- Astro 5.18.1 or higher (required for Content Layer API), tested to work on 6.0.4
-- @storyblok/astro 8.1.0 or higher
-
-Compatibility note (March 12, 2026): `@storyblok/astro@8.1.0` declares peer support for Astro 3–5 only, but this loader has been verified to work with Astro 6.0.4. The package's `peerDependencies` currently track Astro 5.x for compatibility with `@storyblok/astro`. If you are using Astro 6, you can still install and use this loader; expect a peer dependency warning until `@storyblok/astro` updates its Astro peer range.
+- Astro 6.0.0 or higher
+- @storyblok/astro 9.0.0 or higher
 
 ## Important Notes
 
