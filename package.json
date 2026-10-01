@@ -1,6 +1,6 @@
 {
   "name": "@nonsponsored/storyblok-loader",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Storyblok loader for Astro Content Collections API",
   "type": "module",
   "main": "dist/index.js",
