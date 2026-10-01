@@ -4,8 +4,8 @@ A content loader for Astro Content Layer that fetches content from Storyblok's A
 
 ## Requirements
 
-- Astro 6.0.0 or higher
-- @storyblok/astro 9.0.0 or higher
+- Astro 7.0.0 or higher
+- @storyblok/astro 10.0.0 or higher
 
 ## Important Notes
 
